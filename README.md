@@ -29,21 +29,9 @@
 
 **Как запустить**
 
-* **Через IntelliJ IDEA**
-
-1. Откройте файл класса (например, NumberOperations.java).
-2. Правой кнопкой мыши на классе > Run 'NumberOperations.main()'.
-3. В консоли IDEA следуйте подсказкам (введите числа/строки).
-
-* **Через командную строку (без Maven)**
-
-1. Перейдите в папку src/main/java
-2. Скомпилируйте: javac NumberOperations.java
-(аналогично для StringComparison.java и EvenNumbers.java).
-3. Запустите: java NumberOperations
-4. (Введите данные в консоль).
-
 * **Через Maven**
 
 1. В корне проекта: mvn clean compile.
 2. Запустите:mvn exec:java -Dexec.mainClass=manokhina.java.task.NumberOperations
+3. Запустите:mvn exec:java -Dexec.mainClass=manokhina.java.task.EvenNumbers
+4. Запустите:mvn exec:java -Dexec.mainClass=manokhina.java.task.StringComparison
